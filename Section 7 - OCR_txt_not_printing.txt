@@ -1,0 +1,7 @@
+The print to console may not work in case there are 'non-printable' chars included in the string. Please try the following code to transform the string using regular expression prior to printing
+
+import re
+...................
+....................
+text_extracted = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\xff]', '', text_extracted)
+print(text_extracted)
