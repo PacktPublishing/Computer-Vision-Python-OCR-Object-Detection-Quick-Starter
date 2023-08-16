@@ -1,0 +1,6 @@
+Optional Fix 2: cv2.imshow() Not Responding
+
+Please try adding the following lines just after the cv2.imshow() line
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()

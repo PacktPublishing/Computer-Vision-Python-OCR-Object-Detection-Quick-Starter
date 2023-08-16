@@ -1,0 +1,8 @@
+Error - TensorFlow ModuleNotFoundError - No module named keras.models
+
+Please use:
+from tensorflow.keras.models import
+instead of
+from keras.models import
+
+Do only if you have error.

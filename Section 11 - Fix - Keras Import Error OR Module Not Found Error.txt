@@ -1,0 +1,11 @@
+Fix - Keras Import Error OR Module Not Found Error
+
+If you are getting any of these errors, please use the following fix:
+
+For "ImportError: cannot import name 'image' from 'keras.preprocessing'", please use:
+import tensorflow as tf
+tf.keras.preprocessing.image.img_to_array()
+tf.keras.preprocessing.image.load_img()
+instead of
+image.img_to_array()
+load_img()

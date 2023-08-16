@@ -1,0 +1,8 @@
+Fix-Error - module named keras.applications
+
+please use
+from keras.applications.vgg16 import VGG16
+instead of
+from keras.applications.vgg16 import VGG16
+
+The import structure was changed in the latest version of keras

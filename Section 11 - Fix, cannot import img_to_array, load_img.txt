@@ -1,0 +1,6 @@
+Fix, cannot import img_to_array, load_img
+
+change the import statement
+from keras.preprocessing import img_to_array, load_img
+to
+from keras.utils import img_to_array, load_img
